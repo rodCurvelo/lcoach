@@ -85,7 +85,7 @@ input, select, textarea {
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/lc.png");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
@@ -1954,6 +1954,14 @@ input, select, textarea {
 
 	header.major {
 		text-align: center;
+	}
+
+	header.major #logol{
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		width: 50%;
+		height: auto;
 	}
 
 		header.major h1, header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
